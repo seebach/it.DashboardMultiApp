@@ -1,0 +1,205 @@
+body {
+    overflow-y: auto;
+}
+
+.removebtn-ui {
+    padding: 0px;
+    position: absolute;
+    color: #888;
+    font-size: 1.5em;
+    top: 13px;
+    right: 13px;
+    height: 20px;
+    width: 20px;
+    z-index: 20;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.removebtn-ui:hover {
+    color: #333;
+}
+
+.removebtn-filter {
+    padding: 0px;
+    position: absolute;
+    color: #888;
+    font-size: 1.5em;
+    top: 3px;
+    right: 3px;
+    height: 20px;
+    width: 20px;
+    z-index: 20;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.removebtn-filter:hover {
+    color: #333;
+}
+.dragbtn {
+    padding: 0px;
+    position: absolute;
+    color: #888;
+    font-size: 1.5em;
+    top: 13px;
+    right: 43px;
+    height: 20px;
+    width: 20px;
+    z-index: 20;
+    cursor: move;
+}
+
+.dragbtn:hover {
+    color: #333;
+}
+
+.dragbtn:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+.zoombtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.zoombtn:hover {
+    background-color: #EEE;
+    opacity: 0.3;
+}
+
+.qs-box {
+    /*   max-height: calc(100vh / 3.3); */
+    height: calc(100vh / 3.3);
+    ;
+    background-color: white;
+    display: block;
+}
+
+.qs-box-wrapper {
+    padding: 10px;
+    height: calc(100vh / 3);
+}
+
+.qs-box-inner {
+    border: 2px solid #dadada;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #dadada;
+    height: 100%;
+    width: 100%;
+}
+
+.qs-box-filter {
+    margin-top: 2px;
+    position: relative;
+    height: calc(100vh / 6);
+}
+
+.selectedIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    color: ;
+    font-size: 10.3em;
+    text-align:center;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.selectedIcon:hover {
+    background-color: #888;
+    opacity: 0.3;
+}
+
+.selected {
+    background-color: #888;
+    opacity: 0.5;
+}
+
+.preview-wrapper {
+  vertical-align: middle;
+}
+
+.qv-button {
+    clear: both;
+    width: 97%;
+    margin: 3px;
+}
+.qs-sheet-container {
+  max-height: 60vh;
+  overflow-y: scroll;
+}
+.qs-sheet-preview {
+  height: 80px;
+  margin:2px;
+  border: 2px solid #dadada;
+  border-radius: 7px;
+  box-shadow: 0 0 10px #dadada;
+  overflow: hidden;
+/*  background-color:#888; */
+}
+.qs-sheet-preview:hover {
+  border: 2px solid #888;
+}
+#qs-sheet-view {
+  width:50%;
+}
+.modal-body {
+  width:100%;
+  overflow: scroll;
+}
+
+#modal-content .modal-dialog {}
+
+#modal-content .modal-content {
+    height: 90vh;
+}
+
+#qs-sheet-view {
+    /*  border:1px solid black; */
+    height: 60vh;
+    /* overflow:none; */
+}
+
+#QSZOOM {
+    border: 1p solid black;
+    height: 60%;
+    /* width: 60%; */
+}
+
+#addRowButton {
+    color: #888;
+    font-size: 10.2em;
+    cursor: pointer;
+    cursor: hand;
+    text-align: center;
+    vertical-align: middle;
+    line-height: calc(100vh / 3);
+    /* height:calc(100vh / 3); */
+    /*  background-image: url("/resources/it.QlikDashboard/plus-icon.png")    ; */
+}
+
+#addRowButton:hover {
+    color: #666;
+}
+
+#filter-wrapper {
+    border: 2px solid #dadada;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #dadada;
+}
+.float-left {
+  float: left;
+}
+#filters {}
